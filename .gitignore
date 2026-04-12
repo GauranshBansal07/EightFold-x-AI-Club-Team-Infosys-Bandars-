@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+state_files/*.md
+.DS_Store
+trace.txt
+HireMind_Technical_WriteUp.pdf
