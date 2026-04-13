@@ -12,7 +12,7 @@ import time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import streamlit as st
-from config import GROQ_API_KEY, STATE_FILES_DIR
+from config import GROQ_API_KEY_1, GROQ_API_KEY_2, STATE_FILES_DIR
 from ingestion.jd_parser import parse_jd
 from ingestion.competency_spec import generate_competency_specs
 from interview.loop_controller import InterviewController
